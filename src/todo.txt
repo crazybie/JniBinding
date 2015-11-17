@@ -1,0 +1,15 @@
+    // TODO:
+    
+    // support structure mapping.
+    
+    // directly call native callbacks in java:
+    
+    // create a base for callbacks
+    // wrap a function into a sub class, with a unpacking virtual method.
+    // pass as base object to java
+    // java call a generic native method to invoke the callback object
+        // pack the java params into a array
+        // pass the param array to cpp
+        // convert to the base object
+        // call the virtual method to unpack the params and invoke the function.
+    // done.
